@@ -134,6 +134,6 @@ myTrain.buscar_Train(3)
 # Limpando a memória alocada pelos vagões
 myTrain.deletarTrain(2)
 
-# Exibindo informações sobre os vagões no trem
+# Exibindo informações sobre os vagões no trem depois da exclusão
 print("Informações sobre os Vagões no Trem:")
 myTrain.TrainInfo()
