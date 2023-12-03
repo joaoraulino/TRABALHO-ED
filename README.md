@@ -7,7 +7,7 @@
 
 **Descrição do Projeto: Simulação de Trem de Carga com Lista Duplamente Encadeada em Python**
 
-Este projeto implementa uma estrutura de dados de lista duplamente encadeada em Python para simular a composição dinâmica de um trem de carga. A aplicação inclui funcionalidades essenciais para manipulação de vagões, permitindo a adição, exclusão, identificação e exibição de vagões de carga.
+  Este projeto implementa uma estrutura de dados de lista duplamente encadeada em Python para simular a composição dinâmica de um trem de carga. A aplicação inclui funcionalidades essenciais para manipulação de vagões, permitindo a adição, exclusão, identificação e exibição de vagões de carga.
 
 **Funcionalidades Implementadas:**
 
@@ -15,13 +15,16 @@ Este projeto implementa uma estrutura de dados de lista duplamente encadeada em 
 
 <li>Através da função de inclusão, novos vagões de carga podem ser adicionados à composição do trem. Cada vagão é representado como um nó na lista duplamente encadeada, contendo informações relevantes, como carga transportada e número de identificação.</li>
 
+
 **Exclusão de Vagões:**
 
 <li>A exclusão de vagões permite a remoção de unidades específicas da composição do trem. Isso é útil para reorganizar a carga ou ajustar a estrutura do trem conforme necessário.</li>
 
+
 **Identificação de Vagões:**
 
 <li>A função de identificação possibilita a busca e recuperação de informações sobre vagões específicos. Os vagões podem ser identificados pelo número atribuído, facilitando a localização de dados específicos.</li>
+
 
 **Exibição da Composição do Trem:**
 
