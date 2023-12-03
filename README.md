@@ -1,8 +1,8 @@
 # TRABALHO-ED
 
 **Participantes:**
-**<li>João Victor de Souza Raulino [@NomeDoUsuario](https://github.com/joaoraulino) </li>**
-**<li>Yan Ferreira Rocha [@NomeDoUsuario](https://github.com/Yanfr086) </li>**
+**<li>João Victor de Souza Raulino [@joaoraulino](https://github.com/joaoraulino) </li>**
+**<li>Yan Ferreira Rocha [@Yanfr086](https://github.com/Yanfr086) </li>**
 **<li>Caio Barros Miranda [@dynamzz](https://github.com/dynamzz) </li>**
 
 **Descrição do Projeto: Simulação de Trem de Carga com Lista Duplamente Encadeada em Python**
