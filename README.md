@@ -56,6 +56,6 @@ Como Utilizar:
 O código Python disponibilizado implementa classes e métodos para a criação e manipulação da estrutura de lista duplamente encadeada. Siga as instruções no código para utilizar as funcionalidades de inclusão, exclusão, identificação e exibição de vagões.
 
 **Referências**
-<li>[ed-cic-2023-2 (Reposítorio da professora Geovana Ramos)]([URL_do_Link](https://github.com/GeovanaRamos/ed-cic-2023-2))</li>
+<li>[ed-cic-2023-2 (Reposítorio da professora Geovana Ramos)]((https://github.com/GeovanaRamos/ed-cic-2023-2))</li>
 <li>[Resolução de Problemas com Algoritmos e Estruturas de Dados usando Python](https://panda.ime.usp.br/pythonds/static/pythonds_pt/index.html)</li>
 <li>KARUMANCHI, Narasimha. Data Structure and Algorithmic Thinking with Python</li>
