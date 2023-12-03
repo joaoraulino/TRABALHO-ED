@@ -9,7 +9,7 @@
 
   Em resumo, sobre o sistema de gerenciamento de vagões em uma estação ferroviária é projetado para acompanhar e organizar os vagões de trem, suas características, a ordem em que estão acoplados e seus números de indentificação. A lista duplamente encadeada garante que a conexão entre os vagões seja eficiente e permita a navegação em ambas as direções, seja para remover, adicionar ou buscar um vagão entre o trem. Nesse sistema tem importância nas operações ferroviárias, pois ajuda a otimizar o transporte de carga e passageiros, garantindo um funcionamento seguro e eficaz da estação ferroviária.
   
-Este projeto implementa uma estrutura de dados de lista encadeada para representar um trem de vagões. Cada vagão é representado por uma classe ![TrainCar](), que contém o número do vagão e o tipo de carga. A classe ![Train]() representa o trem e possui métodos para adicionar, remover e buscar vagões.
+Este projeto implementa uma estrutura de dados de lista encadeada para representar um trem de vagões. Cada vagão é representado por uma classe `TrainCar`, que contém o número do vagão e o tipo de carga. A classe `Train` representa o trem e possui métodos para adicionar, remover e buscar vagões.
 
 **Funcionalidades Implementadas:**
 
@@ -32,9 +32,13 @@ As seguintes operações podem ser realizadas com o trem de vagões:
 
 * Adicionar um vagão:
 
-![myTrain.addCar_inicio(0, "Carvão")]
-![myTrain.addCar_meio(1, 1, "Combustível")]
-![myTrain.addCar_final(2, "Petróleo")] 
+<pre>
+```myTrain.addCar_inicio(0, "Carvão")
+   myTrain.addCar_meio(1, 1, "Combustível")
+   myTrain.addCar_final(2, "Petróleo") 
+```
+</pre>
+
 
 * Remover um vagão:
 
@@ -55,3 +59,4 @@ O código Python disponibilizado implementa classes e métodos para a criação 
 **Referências**
 <li>[ed-cic-2023-2 (Reposítorio da professora Geovana Ramos)]([URL_do_Link](https://github.com/GeovanaRamos/ed-cic-2023-2))</li>
 <li>[Resolução de Problemas com Algoritmos e Estruturas de Dados usando Python](https://panda.ime.usp.br/pythonds/static/pythonds_pt/index.html)</li>
+<li>KARUMANCHI, Narasimha. Data Structure and Algorithmic Thinking with Python</li>
