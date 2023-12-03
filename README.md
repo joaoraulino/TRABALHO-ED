@@ -33,20 +33,19 @@ As seguintes operações podem ser realizadas com o trem de vagões:
 * Adicionar um vagão:
 
 <pre>
-```myTrain.addCar_inicio(0, "Carvão")
-   myTrain.addCar_meio(1, 1, "Combustível")
-   myTrain.addCar_final(2, "Petróleo") 
-```
+myTrain.addCar_inicio(0, "Carvão")
+myTrain.addCar_meio(1, 1, "Combustível")
+myTrain.addCar_final(2, "Petróleo") 
 </pre>
 
 
 * Remover um vagão:
 
-![myTrain.deletarTrain(0)]
+<pre>myTrain.deletarTrain(0)</pre>
 
 * Buscar um vagão:
 
-![myTrain.buscar_Train(3)]
+<pre>myTrain.buscar_Train(3)</pre>
 
 
 **<p>Exibição da Composição do Trem:</p>**
