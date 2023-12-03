@@ -9,7 +9,7 @@
 
   Em resumo, sobre o sistema de gerenciamento de vagões em uma estação ferroviária é projetado para acompanhar e organizar os vagões de trem, suas características, a ordem em que estão acoplados e seus números de indentificação. A lista duplamente encadeada garante que a conexão entre os vagões seja eficiente e permita a navegação em ambas as direções, seja para remover, adicionar ou buscar um vagão entre o trem. Nesse sistema tem importância nas operações ferroviárias, pois ajuda a otimizar o transporte de carga e passageiros, garantindo um funcionamento seguro e eficaz da estação ferroviária.
   
-  Este projeto implementa uma estrutura de dados de lista duplamente encadeada em Python para simular a composição dinâmica de um trem de carga. A aplicação inclui funcionalidades essenciais para manipulação de vagões, permitindo a adição, exclusão, identificação e exibição de vagões de carga.
+Este projeto implementa uma estrutura de dados de lista encadeada para representar um trem de vagões. Cada vagão é representado por uma classe ![TrainCar], que contém o número do vagão e o tipo de carga. A classe ![Train] representa o trem e possui métodos para adicionar, remover e buscar vagões.
 
 **Funcionalidades Implementadas:**
 
@@ -26,9 +26,32 @@
 <li>A função de identificação possibilita a busca e recuperação de informações sobre vagões específicos. Os vagões podem ser identificados pelo número atribuído, facilitando a localização de dados específicos.</li>
 
 
+**Instruções de Uso**
+
+As seguintes operações podem ser realizadas com o trem de vagões:
+
+* Adicionar um vagão:
+
+![myTrain.addCar_inicio(0, "Carvão")]
+![myTrain.addCar_meio(1, 1, "Combustível")]
+![myTrain.addCar_final(2, "Petróleo")] 
+
+* Remover um vagão:
+
+![myTrain.deletarTrain(0)]
+
+* Buscar um vagão:
+
+![myTrain.buscar_Train(3)]
+
+
 **<p>Exibição da Composição do Trem:</p>**
 
 A aplicação permite a visualização da composição atual do trem, exibindo detalhes sobre cada vagão presente na lista duplamente encadeada. Isso proporciona uma visão clara da estrutura do trem de carga.
 Como Utilizar:
 
 O código Python disponibilizado implementa classes e métodos para a criação e manipulação da estrutura de lista duplamente encadeada. Siga as instruções no código para utilizar as funcionalidades de inclusão, exclusão, identificação e exibição de vagões.
+
+**Referências**
+<li>[ed-cic-2023-2 (Reposítorio da professora Geovana Ramos)]([URL_do_Link](https://github.com/GeovanaRamos/ed-cic-2023-2))</li>
+<li>[Resolução de Problemas com Algoritmos e Estruturas de Dados usando Python](https://panda.ime.usp.br/pythonds/static/pythonds_pt/index.html)</li>
