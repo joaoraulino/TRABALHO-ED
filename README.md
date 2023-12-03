@@ -9,7 +9,7 @@
 
   Em resumo, sobre o sistema de gerenciamento de vagões em uma estação ferroviária é projetado para acompanhar e organizar os vagões de trem, suas características, a ordem em que estão acoplados e seus números de indentificação. A lista duplamente encadeada garante que a conexão entre os vagões seja eficiente e permita a navegação em ambas as direções, seja para remover, adicionar ou buscar um vagão entre o trem. Nesse sistema tem importância nas operações ferroviárias, pois ajuda a otimizar o transporte de carga e passageiros, garantindo um funcionamento seguro e eficaz da estação ferroviária.
   
-Este projeto implementa uma estrutura de dados de lista encadeada para representar um trem de vagões. Cada vagão é representado por uma classe ![TrainCar], que contém o número do vagão e o tipo de carga. A classe ![Train] representa o trem e possui métodos para adicionar, remover e buscar vagões.
+Este projeto implementa uma estrutura de dados de lista encadeada para representar um trem de vagões. Cada vagão é representado por uma classe ![TrainCar](), que contém o número do vagão e o tipo de carga. A classe ![Train]() representa o trem e possui métodos para adicionar, remover e buscar vagões.
 
 **Funcionalidades Implementadas:**
 
